@@ -1,7 +1,7 @@
 ///
 
 let saldo1 = 1000000;
-let saldo2 = 2000000; // saldo es variabe global (mensaje salida tb?)
+let saldo2 = 2000000; // saldo es variabe global
 let saldo3 = 3000000;
 
 //INICIO
@@ -29,7 +29,7 @@ function login() {
             (identificadorIngresado == identificador2 && claveIngresada == clave2) || 
             (identificadorIngresado == identificador3 && claveIngresada == clave3)
         ) {
-            alert("Bienvenido a Banca en linea");
+            alert("Bienvenido a Banca en Línea");
             Menu();
             break;
 
@@ -113,7 +113,3 @@ function funDeposito(){
         alert("Giro realizado con éxito. Su nuevo saldo es: $" + saldo1);
     }
 
-
-
-    // arreglar segundo giro (aparece NaN)
-    // agregar saldo 2 y 3
